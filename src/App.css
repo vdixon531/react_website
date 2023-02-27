@@ -37,7 +37,7 @@
 }
 
 .adventure {
-  background-image: url(../public/images/img-6.jpg);
+  background-image: url(/public/images/img-6.jpg);
   
   background-position: center;
   background-size: cover;
@@ -47,7 +47,7 @@
 }
 
 .contact-me {
-  background-image: url(../public/images/img-8.jpg);
+  background-image: url(/public/images/img-8.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -56,7 +56,7 @@
 }
 
 .resume {
-  background-image: url(../public/images/img-resume.jpg);
+  background-image: url(/public/images/img-resume.jpg);
   background-position: center;
   background-size:contain;
   background-repeat: no-repeat;
