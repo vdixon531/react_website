@@ -4,6 +4,7 @@ import { Button } from "./Button";
 import './HeroSection.css';
 
 function HeroSection(){
+    
     return (
         <div className="hero-container">
             <video src="/videos/video-1.mp4" autoPlay loop muted />
@@ -12,12 +13,15 @@ function HeroSection(){
             <div className="hero-btns">
                 <Button className='btns' 
                 buttonStyle='btn--outline' 
-                buttonSize='btn--large'>
+                buttonSize='btn--large'
+                path='/'
+                onclick={window.scrollTo({top:window.innerHeight, behavior:'smooth'})}>
                     GET STARTED
                 </Button>      
                 <Button className='btns' 
                 buttonStyle='btn--primary' 
-                buttonSize='btn--large'>
+                buttonSize='btn--large'
+                path='/resume'>
                     MY RESUME 
                 </Button>        
             </div>
