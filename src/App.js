@@ -7,6 +7,7 @@ import Music from './components/pages/Music';
 import Experience from './components/pages/Experience';
 import ContactMe from './components/pages/ContactMe';
 import Adventure from './components/pages/Adventure';
+import Resume from './components/pages/Resume';
 
 
 function App() {
@@ -17,9 +18,11 @@ function App() {
       <Switch>
         <Route path='/' exact component={Home} />
         <Route path='/music' component={Music} />
-        <Route path='/experience' exact component={Experience} />
-        <Route path='/adventure' exact component={Adventure} />
-        <Route path='/contact-me' exact component={ContactMe} />
+        <Route path='/experience' component={Experience} />
+        <Route path='/adventure' component={Adventure} />
+        <Route path='/contact-me' component={ContactMe} />
+        <Route path='/youtube' component={ContactMe} />
+        <Route path='/resume' component={Resume} />
       </Switch>
     </Router>
     </>

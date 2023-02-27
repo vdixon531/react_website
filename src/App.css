@@ -8,6 +8,8 @@
 .home,
 .experience,
 .music,
+.adventure,
+.resume,
 .contact-me {
   display: flex;
   height: 90vh;
@@ -50,5 +52,14 @@
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
+  font-size: 100px;
+}
+
+.resume {
+  background-image: url('C:\Users\Valmik\Documents\Web Development Bootcamp\Projects\Personal\react_website\public\images\img-resume.jpg');
+  background-position: center;
+  background-size:contain;
+  background-repeat: no-repeat;
+  color: #322d2d;
   font-size: 100px;
 }
