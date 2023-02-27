@@ -5,7 +5,7 @@ import './Cards.css'
 function Cards() {
     return (
         <div className='cards'>
-            <h1>Check out these Epic destinations</h1>
+            <h1>What's been keeping me busy</h1>
             <div className="cards__container">
                 <div className="cards__wrapper">
                     <ul className="cards__items">
@@ -18,7 +18,7 @@ function Cards() {
                         src="images/img-2.jpg"
                         text="explore this crap"
                         label="adventure"
-                        path=""/>
+                        path="/experience"/>
                     </ul>
 
                     <ul className="cards__items">

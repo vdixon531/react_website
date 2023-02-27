@@ -17,7 +17,7 @@
 }
 
 .experience {
-  /*background-image: url('/images/img-2.jpg');*/
+  background-image: url('C:\Users\Valmik\Documents\Web Development Bootcamp\Projects\Personal\react_website\public\images\img-2.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -26,16 +26,26 @@
 }
 
 .music {
-  /*background-image: url('/images/img-1.jpg');*/
+  background-image: url('C:\Users\Valmik\Documents\Web Development Bootcamp\Projects\Personal\react_website\public\images\img-1.jpg');
   background-position: center;
-  background-size: fill;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.adventure {
+  background-image: url('C:\Users\Valmik\Documents\Web Development Bootcamp\Projects\Personal\react_website\public\images\img-6.jpg');
+  
+  background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
 }
 
 .contact-me {
-  /*background-image: url('/images/img-8.jpg');*/
+  background-image: url('C:\Users\Valmik\Documents\Web Development Bootcamp\Projects\Personal\react_website\public\images\img-8.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
