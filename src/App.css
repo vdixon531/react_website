@@ -19,7 +19,7 @@
 }
 
 .experience {
-  background-image: url(../public/images/img-2.jpg);
+  background-image: url(assets/images/img-2.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -28,7 +28,7 @@
 }
 
 .music {
-  background-image: url(../public/images/img-1.jpg);
+  background-image: url(assets/images/img-1.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -37,7 +37,7 @@
 }
 
 .adventure {
-  background-image: url(/public/images/img-6.jpg);
+  background-image: url(assets/images/img-6.jpg);
   
   background-position: center;
   background-size: cover;
@@ -47,7 +47,7 @@
 }
 
 .contact-me {
-  background-image: url(/public/images/img-8.jpg);
+  background-image: url(assets/images/img-8.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -56,10 +56,66 @@
 }
 
 .resume {
-  background-image: url(/public/images/img-resume.jpg);
+  background-image: url(assets/images/img-resume.jpg);
   background-position: center;
   background-size:contain;
   background-repeat: no-repeat;
   color: #322d2d;
   font-size: 100px;
+}
+
+.contact-container {
+  max-width: 75%;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.contact-form {
+  width: 100%;
+  max-width: 400px;
+}
+
+label {
+  display: block;
+  text-align: left;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #555;
+}
+
+.coming-soon {
+  text-align: center;
+  margin: 20px;
+  font-size: 20px;
+  color: #888;
+}
+
+.coming-soon p:first-child {
+  margin-bottom: 10px;
 }

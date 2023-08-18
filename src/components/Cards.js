@@ -1,6 +1,9 @@
 import React from "react";
 import CardItem from './CardItem';
 import './Cards.css'
+import slfImage from "../assets/images/img-slf.jpg"
+import advImage from "../assets/images/img-trip.jpg"
+import proImage from "../assets/images/img-3.jpg"
 
 function Cards() {
     return (
@@ -10,7 +13,7 @@ function Cards() {
                 <div className="cards__wrapper">
                     <ul className="cards__items">
                         <CardItem 
-                        src="images/img-slf.jpg"
+                        src={slfImage}
                         text="Co-op Work Term at Sun Life Financial"
                         label="Industry Experience"
                         path="/experience"/>
@@ -18,12 +21,12 @@ function Cards() {
                     
                     <ul className="cards__items">
                         <CardItem 
-                        src="images/img-9.jpg"
-                        text="explore this crap"
-                        label="adventure"
-                        path="/music"/>
+                        src={proImage}
+                        text="Roomie Mobile App"
+                        label="Side Project"
+                        path="/experience"/>
                         <CardItem 
-                        src="images/img-trip.jpg"
+                        src={advImage}
                         text="Motorcycle Adventures"
                         label="adventure"
                         path="/youtube"/>

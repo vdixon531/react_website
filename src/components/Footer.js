@@ -6,40 +6,52 @@ import { Link } from 'react-router-dom';
 function Footer() {
   return (
     <div className='footer-container'>
-      <section class='social-media'>
-        <div class='social-media-wrap'>
-          <div class='footer-logo'>
+      <section className='social-media'>
+        <div className='social-media-wrap'>
+          <div className='footer-logo'>
             <Link to='/' className='social-logo'>
               Valmik Dixon
-              <i class='fab fa-typo3' />
+              <i className='fab fa-typo3' />
             </Link>
           </div>
-          <small class='website-rights'>VD © 2023</small>
-          <div class='social-icons'>
-            <Link
-              class='social-icon-link instagram'
-              to='/'
+          <small className='website-rights'>VD © 2023</small>
+          <div className='social-icons'>
+            <a
+              className='social-icon-link instagram'
+              href='https://www.instagram.com/valmikdixon.music/'
               target='_blank'
+              rel='noopener noreferrer'
               aria-label='Instagram'
             >
-              <i class='fab fa-instagram' />
-            </Link>
-            <Link
-              class='social-icon-link youtube'
-              to='/'
+              <i className='fab fa-instagram' />
+            </a>
+            <a
+              className='social-icon-link youtube'
+              href='https://www.youtube.com/@valmikdixon1901'
               target='_blank'
+              rel='noopener noreferrer'
               aria-label='Youtube'
             >
-              <i class='fab fa-youtube' />
-            </Link>
-            <Link
-              class='social-icon-link twitter'
-              to='/'
+              <i className='fab fa-youtube' />
+            </a>
+            <a
+              className='social-icon-link linkedin'
+              href='https://www.linkedin.com/in/valmikdixon/'
               target='_blank'
+              rel='noopener noreferrer'
               aria-label='LinkedIn'
             >
-              <i class='fab fa-linkedin' />
-            </Link>
+              <i className='fab fa-linkedin' />
+            </a>
+            <a
+              className='social-icon-link github'
+              href='https://github.com/vdixon531'
+              target='_blank'
+              rel='noopener noreferrer'
+              aria-label='GitHub'
+            >
+              <i className='fab fa-github' />
+            </a>
           </div>
         </div>
       </section>
