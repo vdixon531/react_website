@@ -1,5 +1,6 @@
 {
   "name": "react_website",
+  "homepage": "www.valmikdixon.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -39,7 +40,6 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://vdixon531.github.io/react_website",
   "devDependencies": {
     "gh-pages": "^6.0.0"
   }
