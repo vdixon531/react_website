@@ -43,6 +43,7 @@ function CardWork() {
                         As a Quality Assurance (QA) Developer at Purolator Digital Lab, I had the opportunity to engage in various tasks and projects that contributed significantly to the development and improvement of the company's digital solutions. My responsibilities encompassed creating guides, building pipelines, 
                         learning new technologies, and developing functionalities to support our applications.
                     </p>
+                    <br/>
                     <h3>Key Responsibilities and Achievements</h3>
                     <h3>1. Developer Experience and Technical Documentation:</h3> 
                     <p>
@@ -64,7 +65,7 @@ function CardWork() {
                     <p>
                         I honed my research skills in a technical context, learning to effectively gather, analyze, and apply information to solve complex problems. Additionally, I completed a Microsoft Learn course on different Azure services, which expanded my knowledge of cloud computing and how to leverage these services for optimal performance and scalability. This commitment to continuous learning and professional development has been crucial to my growth and effectiveness in my role.              
                     </p>
-
+                    <br/>
                     <h3>Conclusion</h3>
                     <p>
                         My experience as a QA Developer at Purolator Digital Lab has been both challenging and rewarding. Throughout my tenure, I have had the opportunity to work on diverse projects that have broadened my technical skill set and provided me with valuable industry experience.
@@ -104,7 +105,7 @@ function CardWork() {
                         to make it easier for professionals from other teams to join and work on the project as required. As I got more familiar with Terraform code, I worked on adding functionality to pre-existing code, such as creating filters to pick selective AWS accounts.
                         I was also involved in dynamic testing with a few senior developers. 
                     </p>
-        
+                    <br/>
                     <h3>Conclusion</h3>
                     <p>
                         Over the summer, Sun Life has allowed me the opportunity to acquire practical experience as a software engineer, which is invaluable
@@ -127,7 +128,7 @@ function CardWork() {
                     to make it easier for professionals from other teams to join and work on the project as required. As I got more familiar with Terraform code, I worked on adding functionality to pre-existing code, such as creating filters to pick selective AWS accounts.
                     I was also involved in dynamic testing with a few senior developers. 
                 </p>
-  
+                <br/>
                 <h3>Conclusion</h3>
                 <p>Over the summer, Sun Life has allowed me the opportunity to acquire practical experience as a software engineer, which is invaluable
                 to my future as a software engineering professional.
