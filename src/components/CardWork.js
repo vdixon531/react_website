@@ -17,8 +17,8 @@ function CardWork() {
                     <ul className="cards__items">
                         <CardItem 
                         src={s1Image}
-                        text="Full Stack Developer"
-                        label="System1"
+                        text="QA Developer"
+                        label="Purolator"
                         onClick={() => setShowPopup1(true)}
                         />
                         <CardItem 
@@ -36,8 +36,60 @@ function CardWork() {
                     </ul>                    
                 </div>
             </div>
-             <Popup trigger={showPopup1} setTrigger={setShowPopup1} title="Work-Term 3 Report">
-              <h3>Content for Popup 1</h3>
+            <Popup trigger={showPopup1} setTrigger={setShowPopup1} title="Work-Term 3 Report">
+                <div>
+                    <h3>Job Description</h3>
+                    <p>
+                        As a Quality Assurance (QA) Developer at Purolator Digital Lab, I had the opportunity to engage in various tasks and projects that contributed significantly to the development and improvement of the company's digital solutions. My responsibilities encompassed creating guides, building pipelines, 
+                        learning new technologies, and developing functionalities to support our applications.
+                    </p>
+                    <h3>Key Responsibilities and Achievements</h3>
+                    <h3>1. Developer Experience and Technical Documentation:</h3> 
+                    <p>
+                        One of my primary tasks was to create a comprehensive guide aimed at enhancing the developer experience and providing clear technical documentation. This guide was designed to assist developers in understanding the tools, processes, and best practices within our team. By documenting these procedures, I ensured that both new and existing team members could quickly get up to speed with the project requirements and workflows. The guide included detailed instructions on setup, troubleshooting, and best practices for writing clean and efficient code.
+                    </p>
+                    <h3>2. Build and Release Pipelines:</h3> 
+                    <p>
+                        I was tasked with creating build and release pipelines from scratch, a critical component of our continuous integration and deployment (CI/CD) strategy. These pipelines were integrated with various Azure services such as Azure Service Apps and Azure Key Vault. By automating the build and release process, I helped streamline the deployment of applications, ensuring that new features and updates could be delivered quickly and reliably. This automation also reduced the potential for human error, increasing the overall quality and reliability of our deployments.
+                    </p>
+                    <h3>3. Learning and Implementing Elastic Search:</h3> 
+                    <p>
+                        During my tenure, I dedicated a significant amount of time to learning Elastic Search, a powerful search and analytics engine. I wrote new queries to improve our search capabilities and explored advanced concepts such as pagination in Elastic Search. Understanding these concepts allowed me to optimize our search functionalities, making them more efficient and user-friendly. My contributions in this area helped enhance the performance and accuracy of our search features, providing users with faster and more relevant results.
+                    </p>
+                    <h3>4. Developing HTTP Triggers in C#:</h3> 
+                    <p>
+                        I also developed HTTP triggers in C#, which are essential for creating serverless applications that respond to HTTP requests. These triggers were used to build and manage various APIs and services within our application ecosystem. By implementing these triggers, I enabled our applications to handle real-time data processing and interaction, improving the responsiveness and functionality of our digital solutions.
+                    </p>
+                    <h3>5. Research and Continuous Learning:</h3> 
+                    <p>
+                        I honed my research skills in a technical context, learning to effectively gather, analyze, and apply information to solve complex problems. Additionally, I completed a Microsoft Learn course on different Azure services, which expanded my knowledge of cloud computing and how to leverage these services for optimal performance and scalability. This commitment to continuous learning and professional development has been crucial to my growth and effectiveness in my role.              
+                    </p>
+
+                    <h3>Conclusion</h3>
+                    <p>
+                        My experience as a QA Developer at Purolator Digital Lab has been both challenging and rewarding. Throughout my tenure, I have had the opportunity to work on diverse projects that have broadened my technical skill set and provided me with valuable industry experience.
+                    </p>
+                    <h3>Technical and Personal Skill Development:</h3> 
+                    <p>
+                        I have significantly improved my technical skills, particularly in areas such as Elastic Search, Azure services, and C# development. I have also developed strong problem-solving abilities and a keen eye for detail, which are essential for ensuring the quality and reliability of software products.
+                    </p>
+                    <h3>Understanding of CI/CD Processes:</h3>
+                    <p>
+                        Working on build and release pipelines has given me a deep understanding of CI/CD processes and the importance of automation in software development. I have learned how to design and implement efficient pipelines that integrate seamlessly with various tools and services, ensuring smooth and reliable deployments.
+                    </p>
+                    <h3>Collaboration and Communication:</h3>
+                    <p>
+                        Creating the developer experience guide and technical documentation required me to collaborate closely with other team members and stakeholders. This experience has improved my communication skills and my ability to work effectively within a team, ensuring that everyone is aligned and working towards common goals.
+                    </p>
+
+                    <h3>Future Implications:</h3>Future Implications:
+                    <p>
+                        This internship has provided me with a solid foundation in QA development and has highlighted areas where I can further improve. I am now more confident in my ability to contribute to complex projects and am eager to apply the skills and knowledge I have gained in future roles.
+                    </p>
+                    <p>
+                        In summary, my time at Purolator Digital Lab has been instrumental in shaping my career as a software developer. The practical experience, technical knowledge, and personal growth I have achieved will undoubtedly be invaluable as I continue to pursue my career in software engineering. The organization’s emphasis on innovation has allowed me to flourish, and I am grateful for the opportunities to learn and grow in such a supportive environment.
+                    </p>
+                </div>
             </Popup>
       
             <Popup trigger={showPopup2} setTrigger={setShowPopup2} title="Work-Term 2 Report">
