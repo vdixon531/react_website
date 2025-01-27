@@ -3,6 +3,8 @@ import '../App.css';
 import { Button } from "./Button";
 import './HeroSection.css';
 import video from "../assets/videos/video-1.mp4"
+import { Link } from "react-router-dom/cjs/react-router-dom.min";
+import pdf from "../assets/files/resume.pdf";
 
 function HeroSection(){
     
@@ -18,13 +20,15 @@ function HeroSection(){
                 path='/'
                 onclick={window.scrollTo({top:window.innerHeight, behavior:'smooth'})}>
                     GET STARTED
-                </Button>      
+                </Button>                     
                 <Button className='btns' 
-                buttonStyle='btn--primary' 
-                buttonSize='btn--large'
-                path='/resume'>
-                    MY RESUME 
-                </Button>        
+                        buttonStyle='btn--primary' 
+                        buttonSize='btn--large'
+                        path={pdf}
+                        target="_blank"
+                        style={{ "border-radius": "10px" }}>
+                    MY RESUME
+                </Button>
             </div>
         </div>
     )

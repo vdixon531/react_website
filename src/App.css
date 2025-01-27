@@ -25,7 +25,16 @@
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
+  text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.7); 
+
+  height: 50vh;  /* Reduce height to half (previously fullscreen) */
+  display: flex;
+  align-items: center; /* Center content vertically */
+  justify-content: center; /* Center content horizontally */
+  text-align: center;
+  
 }
+
 
 .music {
   background-image: url(assets/images/img-1.jpg);
@@ -34,17 +43,31 @@
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
+  text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.7); 
+
+  height: 50vh;  /* Reduce height to half (previously fullscreen) */
+  display: flex;
+  align-items: center; /* Center content vertically */
+  justify-content: center; /* Center content horizontally */
+  text-align: center;
 }
 
 .adventure {
   background-image: url(assets/images/img-6.jpg);
-  
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: #fff;
+  color: #ffffff;
   font-size: 100px;
+  text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.7); 
+
+  height: 50vh;  /* Reduce height to half */
+  display: flex;
+  align-items: center; /* Center text vertically */
+  justify-content: center; /* Center text horizontally */
+  text-align: center;
 }
+
 
 .contact-me {
   background-image: url(assets/images/img-8.jpg);
@@ -53,10 +76,17 @@
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
+  text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.7); 
+
+  height: 50vh;  /* Reduce height to half (previously fullscreen) */
+  display: flex;
+  align-items: center; /* Center content vertically */
+  justify-content: center; /* Center content horizontally */
+  text-align: center;
 }
 
 .resume {
-  background-image: url(assets/images/img-resume.jpg);
+  background-image: url(assets/files/resume.pdf);
   background-position: center;
   background-size:contain;
   background-repeat: no-repeat;
@@ -111,16 +141,21 @@ input[type="submit"]:hover {
 
 .coming-soon {
   text-align: center;
-  margin: 20px;
-  color: #888;
-  background-color: #f5f5f5; /* Adjust the color as needed */
-  max-width: 1120px;
-  width: 97%;
+  margin: 0px;
+  color: #ffffff;
+  font-size: large;
+  background-color: #c1afa5e3; /* Adjust the color as needed */
+  max-width: 11120px;
+  width: 100%;
   margin: 0 auto;
-  padding: 20px; /* Add padding as desired */
-  border-radius: 10px; /* Add rounded corners if desired */
+  padding-top: 30px; 
+  padding-left: 20px;
+  padding-right: 20px;
+  /*border-radius: 10px; Add rounded corners if desired */
+  min-height: 35vh;
 }
 
 .coming-soon p:first-child {
   margin-bottom: 10px;
+  background-color: #746e6be3;
 }

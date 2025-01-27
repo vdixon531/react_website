@@ -1,9 +1,6 @@
 import React from "react";
 import CardItem from './CardItem';
 import './Cards.css'
-import slfImage from "../assets/images/img-slf.jpg"
-import advImage from "../assets/images/img-trip.jpg"
-import proImage from "../assets/images/img-3.jpg"
 
 function Cards() {
     return (
@@ -13,23 +10,23 @@ function Cards() {
                 <div className="cards__wrapper">
                     <ul className="cards__items">
                         <CardItem 
-                        src={slfImage}
-                        text="Co-op Work Term at Sun Life Financial"
+                        src={"images/puro_truck.jpg"}
+                        text="Innovation @ Purolator's Digital Lab"
                         label="Industry Experience"
-                        path="/experience"/>
+                        path="/career/purolator-digital-lab"/>
                     </ul>
                     
                     <ul className="cards__items">
                         <CardItem 
-                        src={proImage}
-                        text="Roomie Mobile App"
-                        label="Side Project"
-                        path="/experience"/>
+                        src={"images/dress_to_impress_ai.jpg"}
+                        text="BarberShop.ai"
+                        label="Personal Project"
+                        path="https://github.com/the-tunnster/dress-to-impress"/>
                         <CardItem 
-                        src={advImage}
-                        text="Motorcycle Adventures"
-                        label="adventure"
-                        path="/youtube"/>
+                        src={"images/ldk-5.jpg"}
+                        text="Escape to the Himalayas"
+                        label="Adventure"
+                        path="/adventure?filter=Ladakh"/>
                     </ul>                    
                 </div>
             </div>

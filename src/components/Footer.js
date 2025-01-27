@@ -35,6 +35,15 @@ function Footer() {
               <i className='fab fa-youtube' />
             </a>
             <a
+              className='social-icon-link email'
+              href='mailto:vdixon531@gmail.com'
+              target='_blank'
+              rel='noopener noreferrer'
+              aria-label='Email'
+            >
+              <i className='fab fa-envelope' />
+            </a>
+            <a
               className='social-icon-link linkedin'
               href='https://www.linkedin.com/in/valmikdixon/'
               target='_blank'

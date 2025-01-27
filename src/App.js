@@ -8,6 +8,7 @@ import Experience from './components/pages/Experience';
 import ContactMe from './components/pages/ContactMe';
 import Adventure from './components/pages/Adventure';
 import Resume from './components/pages/Resume';
+import BlogPost from './components/pages/BlogPost';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <Route path='/contact-me' component={ContactMe} />
         <Route path='/youtube' component={ContactMe} />
         <Route path='/resume' component={Resume} />
+        <Route path='/career/:postId' component={BlogPost} />
       </Switch>
     </Router>
     </>

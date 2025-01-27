@@ -22,8 +22,8 @@ function CardItem(props) {
         onMouseLeave={handleMouseLeave}
         style={{ transform: isHovered ? "translateY(-5px)" : "none" }}
       >
-        <Link className="cards__item__link" to={props.path}>
-          <figure className="cards__item__pic-wrap">
+        <Link className="cards__item__link" to={props.path} target={props.path.startsWith("http") ? "_blank" : "_self"}>
+          <figure className="cards__item__pic-wrap" data-category={props.label}>
             <img
               src={props.src}
               alt="Project"
@@ -32,9 +32,8 @@ function CardItem(props) {
             />
           </figure>
           <div className="cards__item__info">
-            <h5 className="cards__item__text">{props.label}</h5>
             <h2 className="cards__item__text">{props.text}</h2>
-            <button onClick={props.onClick}>Show</button>
+            <button className="show-button" onClick={props.onClick}>Show</button>
           </div>
         </Link>
       </li>
