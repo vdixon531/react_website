@@ -20,7 +20,7 @@ const experiences = [
      id: 2,
      company: "System1",
      logo: "/images/system1.png",
-     title: "Software Engineering Co-op",
+     title: "Jr. Full Stack Software Developer",
      description: [
         "Designed and implemented UI components for high-traffic web applications, improving user engagement metrics by 15%.",
         "Developed and maintained React and TypeScript applications, ensuring smooth state management with Redux.",

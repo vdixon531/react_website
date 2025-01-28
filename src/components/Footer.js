@@ -1,6 +1,5 @@
 import React from 'react';
 import './Footer.css';
-import { Button } from './Button';
 import { Link } from 'react-router-dom';
 
 function Footer() {
@@ -41,8 +40,9 @@ function Footer() {
               rel='noopener noreferrer'
               aria-label='Email'
             >
-              <i className='fab fa-envelope' />
+              <i className='fa-solid fa-envelope' style={{ color: "#ffffff" }} />
             </a>
+
             <a
               className='social-icon-link linkedin'
               href='https://www.linkedin.com/in/valmikdixon/'

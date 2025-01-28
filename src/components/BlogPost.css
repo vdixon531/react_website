@@ -32,26 +32,28 @@
     opacity: 0.9;
 }
 
-/* Blog Content */
 .blog-content {
     max-width: 900px;
-    margin: 40px auto;
+    margin: 0 auto;
     padding: 20px;
-    background: white;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+    line-height: 1.8;
+    color: #333;
 }
 
 .blog-content h3 {
-    font-size: 24px;
-    margin-top: 20px;
+    font-size: 22px;
+    margin-top: 30px;
+    font-weight: bold;
+    color: #615d5b;
 }
 
 .blog-content p {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.6;
-    color: #333;
+    margin-bottom: 15px;
 }
+
 
 /* Error Message */
 .error-message {

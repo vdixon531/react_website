@@ -14,20 +14,27 @@ function Cards() {
                         text="Innovation @ Purolator's Digital Lab"
                         label="Industry Experience"
                         path="/career/purolator-digital-lab"/>
+                        <CardItem 
+                        src={"images/plant-together.png"}
+                        text="Contributing to Plant Together"
+                        label="Passion Projects"
+                        path="https://github.com/nnourr/plant-together"/>
                     </ul>
+
                     
                     <ul className="cards__items">
                         <CardItem 
                         src={"images/dress_to_impress_ai.jpg"}
-                        text="BarberShop.ai"
-                        label="Personal Project"
+                        text="Building - DressToImpress.ai"
+                        label="Passion Projects"
                         path="https://github.com/the-tunnster/dress-to-impress"/>
                         <CardItem 
                         src={"images/ldk-5.jpg"}
                         text="Escape to the Himalayas"
                         label="Adventure"
                         path="/adventure?filter=Ladakh"/>
-                    </ul>                    
+                    </ul>    
+       
                 </div>
             </div>
 

@@ -21,7 +21,7 @@ export default function Adventure() {
   
      return (
          <>
-             <h1 className="adventure">ADVENTURE</h1>;
+             <h1 className="adventure">ADVENTURE</h1>
              <AdvGallery />
              <Footer />
          </>

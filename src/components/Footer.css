@@ -1,13 +1,27 @@
 .footer-container {
     background-color: #54595c;
-    padding: 2rem 0; /* Reduced padding */
+    padding: 2rem 0; /* Adjust padding as needed */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 80px;
-    margin-top: auto;
+    height: auto; /* Allow dynamic height */
+    width: 100%; /* Ensure it spans full width */
+    position: relative; /* Avoid overlap issues */
+    bottom: 0;
 }
+
+/* Ensure the footer is always at the bottom */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#root {
+    flex: 1;
+}
+
   
 .footer-subscription {
     display: flex;
@@ -161,3 +175,8 @@
 @media screen and (max-width: 768px) {
     /* Adjustments for smaller screen sizes if needed */
 }
+
+.social-icon-link.email i {
+    color: white;
+  }
+  

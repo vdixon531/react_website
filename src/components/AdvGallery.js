@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Gallery from "react-photo-gallery";
 import Lightbox from "react-image-lightbox";
 import "react-image-lightbox/style.css";
 import "./AdvGallery.css"; // Add styles
@@ -15,7 +14,8 @@ const photos = [
   { src: "/images/mh-2.jpg", width: 3, height: 4, location: "Maharashtra" },
   { src: "/images/mh-3.jpg", width: 4, height: 3, location: "Maharashtra" },
   { src: "/images/mh-4.jpg", width: 4, height: 3, location: "Maharashtra" },
-  { src: "/images/mh-6.jpg", width: 3, height: 4, location: "Maharashtra" },
+  { src: "/images/mh-5.jpg", width: 4, height: 3, location: "Maharashtra" },
+  { src: "/images/mh-6.jpg", width: 4, height: 3, location: "Maharashtra" },
   { src: "/images/mh-7.jpg", width: 4, height: 3, location: "Maharashtra" },
   { src: "/images/mh-8.jpg", width: 4, height: 3, location: "Maharashtra" },
 
