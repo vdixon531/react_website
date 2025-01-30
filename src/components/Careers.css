@@ -103,3 +103,28 @@
 .see-more:hover {
     color: #0056b3;
 }
+
+@media screen and (max-width: 768px) {
+    .career-card {
+        flex-direction: column; /* Stack content vertically on mobile */
+        width: 95%;
+        text-align: center; /* Center everything */
+        padding: 20px; /* Slightly smaller padding */
+    }
+
+    .career-card img {
+        max-width: 200px; /* Smaller logo on mobile */
+        margin-bottom: 10px; /* Space below image */
+        margin-right: 0; /* Remove right margin */
+    }
+
+    .career-info {
+        text-align: center;
+    }
+
+    .career-description {
+        font-size: 14px; /* Smaller text to fit */
+        word-wrap: break-word; /* Prevent text overflow */
+        text-align: left;
+    }
+}

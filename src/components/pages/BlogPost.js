@@ -7,7 +7,7 @@ const blogData = {
   "purolator-digital-lab": {
     title: "Work-Term Report",
     company: "Purolator Digital Lab",
-    image: "/images/puro_truck.jpg",
+    image: "https://res.cloudinary.com/dgpp4gcw5/image/upload/v1738186458/puro_truck_yh29p5.jpg",
     "content": [
       {
         "heading": "💡 Key Takeaways & Skills Gained",
@@ -67,7 +67,7 @@ const blogData = {
   "system1": {
     title: "Work-Term Report",
     company: "System1",
-    image: "/images/s1-office.jpg",
+    image: "https://res.cloudinary.com/dgpp4gcw5/image/upload/v1738186462/s1-office_vs7umt.jpg",
     "content": [
       {
         "heading": "💡 Key Takeaways & Skills Gained",
@@ -162,9 +162,6 @@ function BlogPost() {
           </div>
         ))}
       </div>
-
-      {/* Footer */}
-      <Footer />
     </>
   );
 }

@@ -23,7 +23,6 @@ export default function Adventure() {
          <>
              <h1 className="adventure">ADVENTURE</h1>
              <AdvGallery />
-             <Footer />
          </>
      )
 };

@@ -9,7 +9,6 @@ export default function Experience() {
         <>
             <h1 className="experience">MY CAREER</h1>
             <Careers />
-            <Footer />
         </>
     )
 };

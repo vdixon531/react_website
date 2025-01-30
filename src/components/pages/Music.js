@@ -10,7 +10,6 @@ export default function Music() {
                 <p>🎵 Stay tuned for some amazing content! 🎵</p>
                 <p>Coming soon...</p>
             </div>
-            <Footer />
         </>
     );
 }

@@ -6,7 +6,7 @@ const experiences = [
   {
     id: 1,
     company: "Purolator Digital Lab",
-    logo: "images/pdl.jpg",
+    logo: "https://res.cloudinary.com/dgpp4gcw5/image/upload/v1738186458/pdl_dgkque.jpg",
     title: "Software Engineering Co-op",
     description: [
         "Developed scalable cloud solutions and microservices using AWS, improving system efficiency by 30%.",
@@ -19,7 +19,7 @@ const experiences = [
    {
      id: 2,
      company: "System1",
-     logo: "/images/system1.png",
+     logo: "https://res.cloudinary.com/dgpp4gcw5/image/upload/v1738186462/system1_dhsgnr.png",
      title: "Jr. Full Stack Software Developer",
      description: [
         "Designed and implemented UI components for high-traffic web applications, improving user engagement metrics by 15%.",
@@ -32,7 +32,7 @@ const experiences = [
    {
      id: 3,
      company: "Sun Life Financial",
-     logo: "/images/img-slf-cops.jpg",
+     logo: "https://res.cloudinary.com/dgpp4gcw5/image/upload/v1738186452/img-slf_venzty.jpg",
      title: "Cloud Solutions Analyst",
      description: [
         "Developed scalable APIs and microservices for Sun Life’s AWS-based cloud platforms, enabling seamless digital transformations.",
@@ -44,8 +44,8 @@ const experiences = [
    },
    {
      id: 4,
-     company: "Facebook",
-     logo: "/images/img-slf.jpg",
+     company: "Sun Life Financial",
+     logo: "https://res.cloudinary.com/dgpp4gcw5/image/upload/v1738186452/img-slf-cops_mlodxi.jpg",
      title: "Dev Ops Automation Engineer",
      description: [
         "Developed CI/CD pipelines using Jenkins, GitHub Actions, and Docker, reducing deployment failures by 40%.",
@@ -58,7 +58,7 @@ const experiences = [
    {
      id: 5,
      company: "University of Guelph",
-     logo: "/images/uofg.jpg",
+     logo: "https://res.cloudinary.com/dgpp4gcw5/image/upload/v1738186462/uofg_jthokr.jpg",
      title: "Teachers Assistant",
      description: [
         "Led tutorials and workshops for CIS courses, simplifying complex topics such as data structures, algorithms, and OOP.",

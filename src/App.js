@@ -9,6 +9,7 @@ import ContactMe from './components/pages/ContactMe';
 import Adventure from './components/pages/Adventure';
 import BlogPost from './components/pages/BlogPost';
 import ScrollToTop from './components/ScrollToTop'; 
+import Footer from "./components/Footer";
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
         <Route path='/youtube' component={ContactMe} />
         <Route path='/career/:postId' component={BlogPost} />
       </Switch>
+      <Footer/>
     </Router>
     </>
   );

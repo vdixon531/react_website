@@ -19,7 +19,7 @@
 }
 
 .experience {
-  background-image: url(assets/images/img-2.jpg);
+  background-image: url(https://res.cloudinary.com/dgpp4gcw5/image/upload/v1738192517/img-2_qtvuld.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -37,7 +37,7 @@
 
 
 .music {
-  background-image: url(assets/images/img-1.jpg);
+  background-image: url(https://res.cloudinary.com/dgpp4gcw5/image/upload/v1738192517/img-1_rkvbns.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -53,7 +53,7 @@
 }
 
 .adventure {
-  background-image: url(assets/images/img-6.jpg);
+  background-image: url(https://res.cloudinary.com/dgpp4gcw5/image/upload/v1738192517/img-6_n11rm7.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -67,24 +67,6 @@
   justify-content: center; /* Center text horizontally */
   text-align: center;
 }
-
-
-/* .contact-me {
-  background-image: url(assets/images/img-8.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
-  text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.7); 
-
-  height: 50vh;  /* Reduce height to half (previously fullscreen) 
-  display: flex;
-  align-items: center; /* Center content vertically 
-  justify-content: center; /* Center content horizontally 
-  text-align: center;
-} 
-*/
 
 .resume {
   background-image: url(assets/files/resume.pdf);
@@ -159,4 +141,13 @@ input[type="submit"]:hover {
 .coming-soon p:first-child {
   margin-bottom: 10px;
   background-color: #746e6be3;
+}
+
+@media screen and (max-width: 768px) {
+  .adventure, .music, .experience{
+      font-size: 3rem !important;
+      text-align: center !important;
+      max-width: 100%;
+      margin: 0 auto;
+  }
 }
