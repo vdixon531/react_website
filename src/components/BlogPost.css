@@ -62,3 +62,39 @@
     font-size: 24px;
     color: red;
 }
+
+.blog-container {
+    max-width: 900px;  /* Adjusted for a nice balance */
+    width: 97%; /* Makes it scale well on different screen sizes */
+    background: rgb(219 225 228 / 95%); /* Light gray with transparency */
+    padding: 40px;
+    border-radius: 12px; /* Soft rounded corners */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin: 40px auto; /* Centers the card */
+}
+
+
+/* Blog headings */
+.blog-container h1, 
+.blog-container h2, 
+.blog-container h3 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* Blog text styling */
+.blog-container p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #444;
+    text-align: justify;
+}
+
+/* Responsive - Mobile Friendly */
+@media screen and (max-width: 768px) {
+    .blog-container {
+        width: 95%; /* More width on mobile for better use of space */
+        padding: 20px;
+    }
+}
+

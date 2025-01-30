@@ -9,10 +9,10 @@ const experiences = [
     logo: "https://res.cloudinary.com/dgpp4gcw5/image/upload/v1738186458/pdl_dgkque.jpg",
     title: "Software Engineering Co-op",
     description: [
-        "Developed scalable cloud solutions and microservices using AWS, improving system efficiency by 30%.",
-        "Enhanced automation pipelines using CI/CD best practices, reducing deployment time from hours to minutes.",
-        "Collaborated with cross-functional teams to optimize system performance, debugging and improving API response times.",
-        "Designed and implemented RESTful APIs to support enterprise logistics applications, ensuring seamless data integration."
+        "Designed and implemented HTTP triggers with C# in a .NET-based mapping system to consolidate and process address data from multiple sources, enabling more efficient route optimization and improving data consistency across applications.",
+        "Took on DevOps tasks to set up new project infrastructure using Azure DevOps, including CI/CD pipelines and Terraform, leading to faster deployment cycles and improved system reliability.",
+        "Optimized application search capabilities by 10x using ElasticSearch in Python, refining query indexing and data structuring, allowing the system to process and consolidate millions of data records with significantly improved retrieval speeds.",
+        "Developed a predictive maintenance AI model using Random Forest and Python, analyzing historical failure data to predict equipment failures with 92% accuracy, reducing downtime and optimizing maintenance schedules."
       ],
     detailsPage: "/career/purolator-digital-lab",
    },
@@ -22,10 +22,9 @@ const experiences = [
      logo: "https://res.cloudinary.com/dgpp4gcw5/image/upload/v1738186462/system1_dhsgnr.png",
      title: "Jr. Full Stack Software Developer",
      description: [
-        "Designed and implemented UI components for high-traffic web applications, improving user engagement metrics by 15%.",
-        "Developed and maintained React and TypeScript applications, ensuring smooth state management with Redux.",
-        "Worked closely with designers and backend teams to integrate GraphQL APIs and improve data-fetching performance.",
-        "Optimized front-end rendering and reduced page load times by implementing efficient caching and lazy-loading strategies."
+        "Developed API & E2E testing frameworks in Python and CI/CD pipelines using Jenkins to improve software deployment and testing processes, leading to more efficient, reliable code delivery and an 80% reduction in manual testing efforts.",
+        "Implemented automated testing frameworks for a search engine using MS Playwright in TypeScript, improving test coverage and reducing human error.",
+        "Set up automated linting and formatting for team-owned repositories, ensuring consistent code quality."
       ],
      detailsPage: "/career/system1",
    },
@@ -35,12 +34,11 @@ const experiences = [
      logo: "https://res.cloudinary.com/dgpp4gcw5/image/upload/v1738186452/img-slf_venzty.jpg",
      title: "Cloud Solutions Analyst",
      description: [
-        "Developed scalable APIs and microservices for Sun Life’s AWS-based cloud platforms, enabling seamless digital transformations.",
-        "Implemented serverless solutions using AWS Lambda, S3, and DynamoDB, reducing infrastructure costs by 25%.",
-        "Automated cloud infrastructure provisioning using Terraform and CloudFormation to enhance system reliability.",
-        "Conducted security audits and performance optimizations to improve overall system uptime and efficiency."
+        "Optimized the performance of AWS EC2 instances, S3 storage, and Lambda functions by using Java scripts for automating and monitoring configurations, increasing responsiveness and cost-effectiveness by 20%",
+        "Assisted in the migration of legacy code to cloud infrastructure, reducing operational downtime by 30% ",
+        "Collaborated closely with developers and teams to troubleshoot and resolve AWS service-related issues, enhancing my ability to work with diverse teams."
       ],
-     detailsPage: "/careers/slf-cloud-ops",
+     detailsPage: "/career/slf-coop",
    },
    {
      id: 4,
@@ -53,7 +51,7 @@ const experiences = [
         "Implemented monitoring and logging solutions with Prometheus and Grafana to proactively identify system issues.",
         "Automated infrastructure provisioning and configuration management with Ansible and Terraform, streamlining deployment processes."
       ],
-     detailsPage: "/careers/slf-dev-ops",
+     detailsPage: "/career/slf-coop",
    },
    {
      id: 5,
@@ -66,7 +64,7 @@ const experiences = [
         "Graded assignments, projects, and exams, providing detailed feedback to enhance student learning outcomes.",
         "Developed supplementary learning materials, including slides and coding exercises, to reinforce core programming concepts."
       ],
-     detailsPage: "/careers/uofg",
+     detailsPage: "/career/uofg",
    },
 ];
 

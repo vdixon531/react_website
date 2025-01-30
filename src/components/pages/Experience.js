@@ -1,8 +1,6 @@
 import React from "react";
 import '../../App.css';
-import CardWork from "../CardWork";
 import Careers from "../Careers"
-import Footer from "../Footer";
 
 export default function Experience() {
     return (

@@ -1,7 +1,6 @@
 import React from "react";
 import '../../App.css';
 import AdvGallery from "../AdvGallery";
-import Footer from "../Footer";
 
 // const Adventure = () => {
 //     const location = useLocation();
