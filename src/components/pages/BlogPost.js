@@ -206,7 +206,7 @@ const blogData = {
       {
         "heading": "📌 Teaching Assistant - CIS*2030: Structure and Applications of Microcomputers (Fall 2023)",
         "text": 
-          "<p style='font-size: 18px; line-height: 1.6;'>In Fall 2023, I worked as a <strong>Teaching Assistant</strong> for <strong>CIS*2030: Structure and Applications of Microcomputers</strong>. This role allowed me to help students understand the fundamental principles of <strong>computer architecture, assembly language, and hardware interfacing</strong>. My responsibilities included:</p>"
+          "<p style='font-size: 18p x; line-height: 1.6;'>In Fall 2023, I worked as a <strong>Teaching Assistant</strong> for <strong>CIS*2030: Structure and Applications of Microcomputers</strong>. This role allowed me to help students understand the fundamental principles of <strong>computer architecture, assembly language, and hardware interfacing</strong>. My responsibilities included:</p>"
       },
       {
         "heading": "🖥️ Facilitating Labs & Debugging Assembly Code",
